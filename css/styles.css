@@ -1,0 +1,186 @@
+/* 
+    notes
+    16px = 100% = 1em
+*/
+
+
+/* GENERAL STYLES */
+
+body {
+    color: #4a3f4f;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 2px 2px #5ec1f1;
+    line-height: 2;
+}
+
+h2, h3, a {
+    color: #BA4FDE;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+hr {
+    border: none;
+    border-top: 8px dotted #efefef;
+    width: 4%;
+}
+
+/* HEADER SECTION */
+
+.header-section {
+    background-color: #eadbff;
+    margin-top: 0;
+}
+
+.top-container {
+    padding: 110px 0;
+    color: #BA4FDE;
+}
+
+.top-container p {
+    font-size: 2.5rem; /* 40px / 16 = 2.5 */
+    text-shadow: 2px 2px #5ec1f1;
+}
+
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.header-image {
+    margin-top: 120px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 620px;
+}
+
+/* PROFILE */
+
+.middle-container {
+    margin-bottom: 100px;
+}
+
+.profile {
+    width: 50%;
+    line-height: 2;
+    margin: auto;
+}
+
+.profile-picture {
+    margin-top: 50px;
+}
+
+.profile p {
+    font-weight: normal;
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 70px;
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    margin-top: 60px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.blurb {
+    padding-top: 40px;
+}
+
+
+.portfolio-img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row img {
+    width: 25%;
+}
+
+.girl {
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+/* CONTACT */
+
+.contact-me {
+    margin: 60px 0;
+}
+
+.contact-me p {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+    line-height: 2;
+}
+
+
+.btn {
+    background: #BA4FDE;
+    background-image: -webkit-linear-gradient(top, #BA4FDE, #58256b);
+    background-image: -moz-linear-gradient(top, #BA4FDE, #58256b);
+    background-image: -ms-linear-gradient(top, #BA4FDE, #58256b);
+    background-image: -o-linear-gradient(top, #BA4FDE, #58256b);
+    background-image: linear-gradient(to bottom, #BA4FDE, #58256b);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.bottom-container {
+    background: #b94cdd;
+    height: 150px;
+    padding-top: 65px;
+}
+
+.bottom-container p {
+    color: #fff;
+}
+
+.links {
+    margin-bottom: 40px;
+}
+
+.footer-link {
+    color: #523d5a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+}
